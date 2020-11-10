@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  font-family: SF-Pro-Display;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'SF-Pro-Display';
+  font-weight: normal;
+  font-style: normal;
+  src: local('SF-Pro-Display'),
+    url(./assets/fonts/SF-Pro-Display-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SF-Pro-Display';
+  font-weight: bold;
+  font-style: bold;
+  src: local('SF-Pro-Display'),
+    url(./assets/fonts/SF-Pro-Display-Semibold.otf) format('opentype');
+}
