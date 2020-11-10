@@ -1,8 +1,9 @@
 @import './scss/colors';
 
 header {
-  background-color: yellow;
+  background-color: gray;
   height: 80px;
+  color: white;
 }
 
 .marca {
@@ -14,7 +15,7 @@ header {
 }
 
 .header-content {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -29,4 +30,70 @@ header {
 .username {
   float: right;
   margin-top: 30px;
+}
+
+.coll-list {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.list-header {
+  background-color: white;
+  border: 1px #34afc7 solid;
+  color: #000;
+  margin-top: -1px;
+  padding: 8px;
+  font-size: 16px;
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.Collapsible {
+  border: 1px #34afc7 solid;
+  padding: 8px;
+}
+
+.list-header-options {
+  float: right;
+  margin-top: -30px;
+  z-index: 5;
+
+  img {
+    margin: 5px;
+  }
+}
+
+.list-content {
+  border-top: none;
+  margin-top: 15px;
+}
+
+.subtarefa {
+  width: 500px;
+}
+
+.tarefa-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarefa-checkbox {
+  margin-top: 5px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+.subtarefa-checkbox {
+  margin-left: 160px;
+}
+
+.checkbox {
+  display: inline-flex;
 }
