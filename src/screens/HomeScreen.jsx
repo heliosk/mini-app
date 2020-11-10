@@ -4,6 +4,8 @@ import { useHistory } from 'react-router-dom';
 import Marca from '../components/Marca';
 import ImgResponsive from '../assets/images/img_responsive.png';
 
+import '../styles/HomeScreen.scss';
+
 const HomeScreen = () => {
   const history = useHistory();
 
