@@ -1,11 +1,7 @@
-.App {
-  text-align: center;
-  font-family: SF-Pro-Display;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background-pattern {
+  height: 100vh;
+  background-image: url('../../assets/images/pattern.png');
+  background-repeat: repeat;
 }
 
 @font-face {

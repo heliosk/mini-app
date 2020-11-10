@@ -9,11 +9,12 @@
   font-size: 18px;
   margin: 5px;
 
-  &.orange {
+  &.primary {
     background-color: $orange;
   }
 
-  &.green {
+  &.secondary {
     background-color: $green;
+    color: $brown;
   }
 }

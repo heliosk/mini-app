@@ -1,0 +1,51 @@
+.container {
+  border-radius: 5px;
+  height: 480px;
+  width: 500px;
+  display: flex;
+
+  background-color: $light-yellow;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+}
+
+.content {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: $brown;
+
+  img {
+    width: 100px;
+    margin: 10px;
+  }
+
+  label {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  button {
+    margin-top: 35px;
+  }
+}
+
+.seta {
+  height: 20px;
+  margin: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.marca {
+  margin-bottom: 50px;
+  text-align: center;
+}
