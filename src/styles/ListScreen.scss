@@ -1,0 +1,32 @@
+@import './scss/colors';
+
+header {
+  background-color: yellow;
+  height: 80px;
+}
+
+.marca {
+  padding-top: 15px;
+
+  img {
+    width: 80%;
+  }
+}
+
+.header-content {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  margin: 15px;
+  vertical-align: 'middle';
+  width: 50px;
+}
+
+.username {
+  float: right;
+  margin-top: 30px;
+}
