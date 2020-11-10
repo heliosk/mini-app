@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  width: 250px;
+  border-radius: 5px;
+  padding: 12px 22px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  margin: 5px;
+
+  &.orange {
+    background-color: $orange;
+  }
+
+  &.green {
+    background-color: $green;
+  }
+}
