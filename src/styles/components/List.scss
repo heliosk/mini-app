@@ -1,0 +1,116 @@
+$midnight: #2c3e50;
+$clouds: #ecf0f1;
+
+@import '../scss/colors';
+
+.tab-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+// .tabs {
+//   border-radius: 8px;
+//   overflow: hidden;
+//   border: 1px #34afc7 solid;
+// }
+
+.tab {
+  color: $brown;
+
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: white;
+    font-weight: bold;
+    border: 1px #34afc7 solid;
+    border-bottom: none;
+    cursor: pointer;
+    margin-top: -1px;
+  }
+
+  &-content {
+    background: white;
+    text-align: center;
+    border: 1px #34afc7 solid;
+    border-top: none;
+
+    padding-bottom: 20px;
+  }
+
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    cursor: pointer;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  max-height: 100vh;
+}
+
+.title img {
+  margin-right: 3px;
+}
+
+.icones img {
+  margin-left: 5px;
+}
+
+.add-tarefa-input {
+  border: 1px $orange solid;
+  position: relative;
+  height: 30px;
+  width: 600px;
+  margin-left: 25px;
+  border-radius: 5px;
+
+  color: $brown;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-add {
+  margin-left: -32px;
+  margin-top: 4px;
+  position: absolute;
+}
+
+.task-title {
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 15px;
+  font-size: 18px;
+
+  hr {
+    border: 1px solid #34afc7;
+  }
+}
+
+.task-content {
+  margin-right: 60px;
+}
+
+.sub-task-content {
+  margin-right: 60px;
+  margin-left: 20px;
+}
+
+.subtask-input {
+  margin-top: 10px;
+}
+
+input[type='text'] {
+  box-sizing: border-box;
+  padding-left: 10px;
+}

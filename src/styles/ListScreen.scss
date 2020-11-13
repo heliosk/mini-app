@@ -37,20 +37,6 @@ header {
   margin: 0 auto;
 }
 
-.list-header {
-  background-color: white;
-  border: 1px #34afc7 solid;
-  color: #000;
-  margin-top: -1px;
-  padding: 8px;
-  font-size: 16px;
-  z-index: 1;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
 .Collapsible {
   border: 1px #34afc7 solid;
   padding: 8px;
@@ -96,4 +82,24 @@ header {
 
 .checkbox {
   display: inline-flex;
+}
+
+.list-container {
+  width: 750px;
+  margin: 0 auto;
+
+  .tab:last-child {
+    border-bottom: 1px #34afc7 solid;
+  }
+
+  .list-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+
+  span {
+    font-size: 24px;
+    color: $brown;
+  }
 }
