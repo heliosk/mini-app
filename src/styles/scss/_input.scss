@@ -14,3 +14,29 @@
     width: 480px;
   }
 }
+
+.add-tarefa-input {
+  border: 1px $orange solid;
+  position: relative;
+  height: 35px;
+  width: 600px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: $brown;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.large {
+    width: 700px;
+  }
+}
+
+.btn-add {
+  margin-left: -32px;
+  margin-top: 7px;
+  position: absolute;
+}

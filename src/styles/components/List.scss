@@ -65,27 +65,6 @@ $clouds: #ecf0f1;
   margin-left: 5px;
 }
 
-.add-tarefa-input {
-  border: 1px $orange solid;
-  position: relative;
-  height: 30px;
-  width: 600px;
-  margin-left: 25px;
-  border-radius: 5px;
-
-  color: $brown;
-
-  &:focus {
-    outline: none;
-  }
-}
-
-.btn-add {
-  margin-left: -32px;
-  margin-top: 4px;
-  position: absolute;
-}
-
 .task-title {
   text-align: left;
   margin-left: 80px;
