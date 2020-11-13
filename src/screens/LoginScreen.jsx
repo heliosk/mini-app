@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-import Marca from '../components/Marca';
+import Brand from '../components/Brand';
 import Seta from '../assets/images/seta.png';
 import '../styles/LoginScreen.scss';
 
@@ -11,7 +11,7 @@ const LoginScreen = () => {
   return (
     <div className='background-pattern'>
       <div className='wrapper'>
-        <Marca />
+        <Brand />
         <div className='login-container'>
           <img
             src={Seta}

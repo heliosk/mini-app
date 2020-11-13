@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-import Marca from '../components/Marca';
+import Brand from '../components/Brand';
 import Camera from '../assets/images/camera.png';
 import Seta from '../assets/images/seta.png';
 
@@ -13,7 +13,7 @@ const RegisterScreen = () => {
   return (
     <div className='background-pattern'>
       <div className='wrapper'>
-        <Marca />
+        <Brand />
         <div className='register-container'>
           <img
             src={Seta}

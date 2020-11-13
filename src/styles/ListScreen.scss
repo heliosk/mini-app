@@ -6,7 +6,7 @@ header {
   color: white;
 }
 
-.marca {
+.brand {
   padding-top: 15px;
 
   img {
@@ -79,7 +79,7 @@ header {
   margin: 0 auto;
 
   .tab:last-child {
-    border-bottom: 1px #34afc7 solid;
+    border-bottom: 1px $turquoise solid;
   }
 
   .list-header {
@@ -92,4 +92,8 @@ header {
     font-size: 24px;
     color: $brown;
   }
+}
+
+.create-task {
+  cursor: pointer;
 }

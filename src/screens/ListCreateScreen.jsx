@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import Header from '../components/Header';
 import ListItem from '../components/ListItem';
 
@@ -10,6 +11,8 @@ import EditarTarefa from '../assets/images/icone_editar.png';
 import '../styles/ListCreateScreen.scss';
 
 const ListCreateScreen = () => {
+  const history = useHistory();
+
   return (
     <div>
       <Header />
@@ -37,7 +40,11 @@ const ListCreateScreen = () => {
           />
         </div>
         <div className='create-button-container'>
-          <button className='button secondary'>Cancelar</button>
+          <button
+            className='button secondary'
+            onClick={() => history.push('/list')}>
+            Cancelar
+          </button>
           <button className='button primary'>Criar Lista</button>
         </div>
 

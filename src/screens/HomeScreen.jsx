@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-import Marca from '../components/Marca';
+import Brand from '../components/Brand';
 import ImgResponsive from '../assets/images/img_responsive.png';
 
 import '../styles/HomeScreen.scss';
@@ -13,7 +13,7 @@ const HomeScreen = () => {
     <div className='background-pattern'>
       <div className='home-logo-box'>
         <img src={ImgResponsive} alt='responsive' />
-        <Marca />
+        <Brand />
         <div className='button-container'>
           <button
             className='button primary'
