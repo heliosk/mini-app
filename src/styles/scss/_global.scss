@@ -1,9 +1,3 @@
-.background-pattern {
-  height: 100vh;
-  background-image: url('../../assets/images/pattern.png');
-  background-repeat: repeat;
-}
-
 @font-face {
   font-family: 'SF-Pro-Display';
   font-weight: normal;
@@ -18,4 +12,14 @@
   font-style: bold;
   src: local('SF-Pro-Display'),
     url(../../assets/fonts/SF-Pro-Display-Semibold.otf) format('opentype');
+}
+
+.background-pattern {
+  height: 100vh;
+  background-image: url('../../assets/images/pattern.png');
+  background-repeat: repeat;
+}
+
+.error {
+  color: red;
 }

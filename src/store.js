@@ -9,9 +9,7 @@ const reducer = combineReducers({
 
 const middleware = [thunk];
 
-const initialState = {
-  user: {},
-};
+const initialState = {};
 
 const store = createStore(
   reducer,
