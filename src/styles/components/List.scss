@@ -25,6 +25,7 @@ $clouds: #ecf0f1;
     background: white;
     font-weight: bold;
     border: 1px #34afc7 solid;
+    border-right: none;
     border-bottom: none;
     cursor: pointer;
     margin-top: -1px;
@@ -62,7 +63,9 @@ $clouds: #ecf0f1;
 }
 
 .icones img {
-  margin-left: 5px;
+  margin-top: 14px;
+  margin-right: 8px;
+  cursor: pointer;
 }
 
 .task-title {
@@ -87,4 +90,11 @@ $clouds: #ecf0f1;
 
 .subtask-input {
   margin-top: 10px;
+}
+
+.tab-composition {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #34afc7;
+  border-right: 1px solid #34afc7;
 }

@@ -15,9 +15,9 @@ const Header = () => {
 
   const [name, setName] = useState('');
 
-  useEffect(() => {
-    users === undefined ? history.push('/') : setName(users.name);
-  }, [users, history]);
+  // useEffect(() => {
+  //   users === undefined ? history.push('/') : setName(users.name);
+  // }, [users, history]);
 
   return (
     <header>

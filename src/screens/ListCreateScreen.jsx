@@ -31,7 +31,7 @@ const ListCreateScreen = () => {
           <input
             type='text'
             className='add-tarefa-input large'
-            placeholder='Adicionar subtarefa'
+            placeholder='Adicionar tarefa'
           />
           <img
             src={BotaoAdicionar}
@@ -49,7 +49,7 @@ const ListCreateScreen = () => {
         </div>
 
         <div className='create-task'>
-          <div className='title'>
+          <div className='create-task-title'>
             <img src={IconeLista} alt='Lista tarefas' /> Item 1
           </div>
           <div className='icones'>

@@ -29,15 +29,18 @@ const List = ({ id }) => {
         id={`cb${id}`}
         onClick={onClickTitle}
       />
-      <label className='tab-label' htmlFor={`cb${id}`}>
-        <div className='title'>
-          <img src={IconeLista} alt='Lista tarefas' /> Item 1
-        </div>
+      <div className='tab-composition'>
+        <label className='tab-label' htmlFor={`cb${id}`}>
+          <div className='title'>
+            <img src={IconeLista} alt='Lista tarefas' /> Item 1
+          </div>
+        </label>
         <div className='icones'>
           <img src={EditarTarefa} alt='Editar tarefa' onClick={onEdit} />
           <img src={DeletarTarefa} alt='Deletar tarefa' />
         </div>
-      </label>
+      </div>
+
       <div className={`tab-content ${showContent ? 'show' : 'hide'}`}>
         <input
           type='text'
